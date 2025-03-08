@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 app.use(
   cors({
-    origin: ["https://www.98fastbet.com", "https://admin.98fastbet.com"], // Replace '*' with the specific origin(s) you want to allow, e.g., 'https://yourdomain.com'
+    origin: ["https://colorpridiction-front.vercel.app", "https://admin.98fastbet.com"], // Replace '*' with the specific origin(s) you want to allow, e.g., 'https://yourdomain.com'
     methods: ['POST', 'GET', 'PUT', 'DELETE'], // Define allowed HTTP methods
     credentials: true, // Allow credentials like cookies to be sent
   })
